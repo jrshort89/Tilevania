@@ -1,0 +1,474 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jrsho/OneDrive/Desktop/Tilevania/Tilevania4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61530
+Successfully changed project path to: C:/Users/jrsho/OneDrive/Desktop/Tilevania/Tilevania4
+C:/Users/jrsho/OneDrive/Desktop/Tilevania/Tilevania4
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jrsho/OneDrive/Desktop/Tilevania/Tilevania4/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001966 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (463ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (718ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 2.345500 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.038900 ms  DeleteObjects: 0.050000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/SPA_Coins.png
+  artifactKey: Guid(9c3a91c52756b9741923ea2e53e36ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Coins.png using Guid(9c3a91c52756b9741923ea2e53e36ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5140b66d553d64d287583103181d092d') in 0.077071 seconds 
+  Import took 0.079890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/SPA_Enemy_Right.png
+  artifactKey: Guid(e9d76e16a48cc524d9f859e2ea67ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Enemy_Right.png using Guid(e9d76e16a48cc524d9f859e2ea67ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd76cbee26d38ea08981b0f997627c') in 0.016325 seconds 
+  Import took 0.018889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/SPA_Ladder.png
+  artifactKey: Guid(421ceeb5cc69c1c43ac319ef33791303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Ladder.png using Guid(421ceeb5cc69c1c43ac319ef33791303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2627fd97f3b2b5e897c348f2391060b') in 0.006343 seconds 
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/SPA_Rock_Grass_Water.png
+  artifactKey: Guid(390f48d3346fa0140aa0daa51a92b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Rock_Grass_Water.png using Guid(390f48d3346fa0140aa0daa51a92b97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ea81501d5681a0f28314845bed9af2') in 0.043615 seconds 
+  Import took 0.046468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/SPA_Player_Ginger.png
+  artifactKey: Guid(93de5aad7ce1e384b87e61d7d484cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Player_Ginger.png using Guid(93de5aad7ce1e384b87e61d7d484cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e871a8af755e7d6cbc243e9ecc2c16cb') in 0.047553 seconds 
+  Import took 0.050485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sprites/SPA_Background brown tint.png
+  artifactKey: Guid(94332da58c86b5046a583868151b2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SPA_Background brown tint.png using Guid(94332da58c86b5046a583868151b2242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe3d8246b63d691fed804b054ecc792') in 0.028372 seconds 
+  Import took 0.031102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Spikes.png
+  artifactKey: Guid(0aa1287bd08b81940820b72f34b6bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Spikes.png using Guid(0aa1287bd08b81940820b72f34b6bd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19906d39123e73e9e7f5e5ab445e271') in 0.003755 seconds 
+  Import took 0.006783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.493851 seconds.
+  path: Assets/Platforms Palette.prefab
+  artifactKey: Guid(8164fd4b9070eba449d0289479490189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms Palette.prefab using Guid(8164fd4b9070eba449d0289479490189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8211457ae4262f01744f5493f7a7167') in 0.024710 seconds 
+  Import took 0.028252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.245743 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(1556350497d8d214f9be9c764ab2ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(1556350497d8d214f9be9c764ab2ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5b32295b60b60d53ee52d53c9d0673') in 0.001506 seconds 
+  Import took 0.004229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.200565 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_0.asset
+  artifactKey: Guid(fdd3b2badf5c2c747857f12f85061976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_0.asset using Guid(fdd3b2badf5c2c747857f12f85061976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3415058f668b4e2f1ae75144bd2ddf5d') in 0.012785 seconds 
+  Import took 0.016503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_20.asset
+  artifactKey: Guid(44edf891d3c6e044b94c1bd850df53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_20.asset using Guid(44edf891d3c6e044b94c1bd850df53db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d941657c4d28e6bbb8c0a813bfc1df') in 0.004903 seconds 
+  Import took 0.007525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_24.asset
+  artifactKey: Guid(23db522b375d2cd4c85c81afdf8d855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_24.asset using Guid(23db522b375d2cd4c85c81afdf8d855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aada373016854dacb85075c14c949f70') in 0.004837 seconds 
+  Import took 0.007401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_3.asset
+  artifactKey: Guid(a92f9ba2ab610b74183e7b3fa8d6dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_3.asset using Guid(a92f9ba2ab610b74183e7b3fa8d6dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507da93086e605a7a9d66a45cb93ddb') in 0.004711 seconds 
+  Import took 0.007361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_5.asset
+  artifactKey: Guid(4fc2e5e63ec1e2141b8b4ff0689c5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_5.asset using Guid(4fc2e5e63ec1e2141b8b4ff0689c5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4640613434846eb42be2841f96df5') in 0.004724 seconds 
+  Import took 0.007224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_10.asset
+  artifactKey: Guid(cd0c806c3ec873143b6a53387946e235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_10.asset using Guid(cd0c806c3ec873143b6a53387946e235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18db4442a8a11e88dd4ff6794673a40b') in 0.004663 seconds 
+  Import took 0.007226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_16.asset
+  artifactKey: Guid(9de8f7a921900664fb5f548d7e7e9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_16.asset using Guid(9de8f7a921900664fb5f548d7e7e9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855356953b6d9440f7ef02cdf6912a58') in 0.004715 seconds 
+  Import took 0.007461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_4.asset
+  artifactKey: Guid(5b9a89997878f4a46b632c4a7d9b0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_4.asset using Guid(5b9a89997878f4a46b632c4a7d9b0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbdda2d0f2fd1f4d2b501b2a9f9baa4') in 0.005058 seconds 
+  Import took 0.007820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_9.asset
+  artifactKey: Guid(44363f88a9c45e84b83f0be4a316e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_9.asset using Guid(44363f88a9c45e84b83f0be4a316e82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8500da9182f65c474781d4cb8f2250ed') in 0.004866 seconds 
+  Import took 0.007889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_15.asset
+  artifactKey: Guid(1c263c2c21a563948b5faa659bc67a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_15.asset using Guid(1c263c2c21a563948b5faa659bc67a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1699176e2fac38699549587068786b') in 0.005475 seconds 
+  Import took 0.008328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_17.asset
+  artifactKey: Guid(ad762e12f0efe304999cf345fec8dbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_17.asset using Guid(ad762e12f0efe304999cf345fec8dbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e304d614b1e42f7c637ba08c2535ffc5') in 0.004885 seconds 
+  Import took 0.007737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_29.asset
+  artifactKey: Guid(992f8f3943424154091ba028258cb8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_29.asset using Guid(992f8f3943424154091ba028258cb8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc32c2108baed634c15f09364d24382') in 0.004772 seconds 
+  Import took 0.007370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_8.asset
+  artifactKey: Guid(db20a38c7d9aa504a8a9a45946317200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_8.asset using Guid(db20a38c7d9aa504a8a9a45946317200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2429b36c652e4e5b9d31c8ef7ba19c') in 0.004732 seconds 
+  Import took 0.007227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_1.asset
+  artifactKey: Guid(f7296dec251a6d141a07d78a631eec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_1.asset using Guid(f7296dec251a6d141a07d78a631eec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e58c27f3c16a27ded871fa8f51d46c') in 0.005313 seconds 
+  Import took 0.008313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_28.asset
+  artifactKey: Guid(ab7da621257dfaf42baea202699a7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_28.asset using Guid(ab7da621257dfaf42baea202699a7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d101a02336f4d9994712be36aafb8a5') in 0.004651 seconds 
+  Import took 0.007043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_27.asset
+  artifactKey: Guid(d9a1f67c4eebf4f438eded08f3c985e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_27.asset using Guid(d9a1f67c4eebf4f438eded08f3c985e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e769f838fa551f8c22f5bfea3953b1') in 0.004776 seconds 
+  Import took 0.007472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_13.asset
+  artifactKey: Guid(6af4f13890e4abf47b3a887a5b45a23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_13.asset using Guid(6af4f13890e4abf47b3a887a5b45a23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54001a213c971a74e7005874432cc3ce') in 0.005445 seconds 
+  Import took 0.008191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_6.asset
+  artifactKey: Guid(7aba35f0975008446b703ab68d2e5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_6.asset using Guid(7aba35f0975008446b703ab68d2e5edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e410b9cb0bb5c61bbb4a5e1f8fa7e8') in 0.004803 seconds 
+  Import took 0.007544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_19.asset
+  artifactKey: Guid(1aed4621e2b29a14fa13e84aa23721db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_19.asset using Guid(1aed4621e2b29a14fa13e84aa23721db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065662c790b24105868fdef77013f1b7') in 0.004699 seconds 
+  Import took 0.007640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_11.asset
+  artifactKey: Guid(754aff703d4384a448f2cf01a1655aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_11.asset using Guid(754aff703d4384a448f2cf01a1655aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c1aeeb38d07273b8175924ba5f2b6') in 0.004638 seconds 
+  Import took 0.007163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_12.asset
+  artifactKey: Guid(c268b59c26d9f6341ab0ee4d3350290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_12.asset using Guid(c268b59c26d9f6341ab0ee4d3350290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e147431bf4ddd8cc09ac1b4501e1a53') in 0.005375 seconds 
+  Import took 0.008274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_25.asset
+  artifactKey: Guid(7e729925366fd114a808bba0a962ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_25.asset using Guid(7e729925366fd114a808bba0a962ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c1cbd6ccf2fb778279300b2fb85f9d') in 0.005337 seconds 
+  Import took 0.008656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_2.asset
+  artifactKey: Guid(8dbe30b2483dfc84c8bf566c65a5bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_2.asset using Guid(8dbe30b2483dfc84c8bf566c65a5bf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54073ff5e4c44fe0e2e0991b0711f837') in 0.005245 seconds 
+  Import took 0.008477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_23.asset
+  artifactKey: Guid(25f2522a7c416b04d9d1551733a1ec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_23.asset using Guid(25f2522a7c416b04d9d1551733a1ec0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf472e41e0ca76c563047f5ad7aa13a') in 0.005273 seconds 
+  Import took 0.008794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_14.asset
+  artifactKey: Guid(2b843d28ec0fa8d49beca1af03131e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_14.asset using Guid(2b843d28ec0fa8d49beca1af03131e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62a99c6cc42b5e403bda0a17f5b84c4') in 0.004940 seconds 
+  Import took 0.008027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_21.asset
+  artifactKey: Guid(6ec6f30fecad31f45be246d74c08de3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_21.asset using Guid(6ec6f30fecad31f45be246d74c08de3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c06a6b72f480035943adb7cc2cdc2b0') in 0.005158 seconds 
+  Import took 0.008318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_26.asset
+  artifactKey: Guid(e5b483bedf1227c49be0a1ef176a8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_26.asset using Guid(e5b483bedf1227c49be0a1ef176a8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e70371aea8142798e394f0065fe77') in 0.004973 seconds 
+  Import took 0.007723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_22.asset
+  artifactKey: Guid(a262a68d4eafa6847b5d421415871f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_22.asset using Guid(a262a68d4eafa6847b5d421415871f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c679763db2c0653022557cc77425d43b') in 0.004786 seconds 
+  Import took 0.007375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_18.asset
+  artifactKey: Guid(a9eea7923bdc04e4b9cb380b8bc617fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_18.asset using Guid(a9eea7923bdc04e4b9cb380b8bc617fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202c0bc3d8c288653141aeeeaae605dc') in 0.005054 seconds 
+  Import took 0.007724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiles/SPA_Rock_Grass_Water_7.asset
+  artifactKey: Guid(0ee827faf23a92640aeb9298638b3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/SPA_Rock_Grass_Water_7.asset using Guid(0ee827faf23a92640aeb9298638b3484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ed15684bd25261e4a4f6569724cd1f') in 0.004719 seconds 
+  Import took 0.007493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.636667 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.002321 seconds 
+  Import took 0.005986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.691406 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31990a5e377fbf94d1d6d5f7549c7dfd') in 0.002468 seconds 
+  Import took 0.005559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.281652 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323ac078ced8aa9bd55205b5e0898a33') in 0.001875 seconds 
+  Import took 0.004923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.905014 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a724292a718558bd2e640a27eb6aebb1') in 0.002137 seconds 
+  Import took 0.005469 seconds .
+
