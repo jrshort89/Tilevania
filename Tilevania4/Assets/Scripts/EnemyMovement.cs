@@ -13,7 +13,8 @@ public class EnemyMovement : MonoBehaviour
     
     void Update()
     {
-        myRigidBody.velocity = new Vector2(moveSpeed, 0f);
+        float enemyDirection = myRigidBody.transform.localScale.x;
+        myRigidBody.velocity = new Vector2(enemyDirection * moveSpeed, 0f);
     }
 
     private void OnTriggerExit2D(Collider2D collision)

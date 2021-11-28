@@ -10,6 +10,8 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] float defaultGravity = 8f;
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
 
 
     Vector2 moveInput;
@@ -104,5 +106,10 @@ public class PlayerInput : MonoBehaviour
             myRigidBody.velocity = new Vector2(-myRigidBody.velocity.x * 2, 20f);
             myAnimator.SetTrigger("Dying");
         }
+    }
+
+    void OnFire(InputValue value)
+    {
+        Instantiate(bullet, gun.position, transform.rotation);
     }
 }
