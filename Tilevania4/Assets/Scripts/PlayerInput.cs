@@ -15,22 +15,29 @@ public class PlayerInput : MonoBehaviour
     Vector2 moveInput;
     Rigidbody2D myRigidBody;
     Animator myAnimator;
+    CapsuleCollider2D myBodyCollider;
+    BoxCollider2D myFeetCollider;
     int ground;
     int climbableObject;
+    bool isAlive = true;
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         ground = LayerMask.GetMask("Ground");
         climbableObject = LayerMask.GetMask("Climb");
+        myFeetCollider = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {        
-        Run();
-        ChangeSpriteDirection();
-        StartClimbing();
+        if (isAlive)
+        {
+            Run();
+            ChangeSpriteDirection();
+            StartClimbing();
+            Die();
+        }        
     }
 
     void Run()
@@ -43,6 +50,7 @@ public class PlayerInput : MonoBehaviour
 
     void OnMove(InputValue value)
     {
+        if (!isAlive) { return; }
         moveInput = value.Get<Vector2>();        
     }
 
@@ -57,8 +65,9 @@ public class PlayerInput : MonoBehaviour
     }
 
     void OnJump(InputValue value)
-    {        
-        if (myRigidBody.IsTouchingLayers(ground))
+    {
+        if (!isAlive) { return; }
+        if (myFeetCollider.IsTouchingLayers(ground))
         {            
             myRigidBody.velocity += new Vector2(0f, jumpSpeed);
         }        
@@ -67,7 +76,7 @@ public class PlayerInput : MonoBehaviour
     void StartClimbing()
     {
         bool playerHasVerticalalSpeed = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
-        bool isTouchingClimableObject = myRigidBody.IsTouchingLayers(climbableObject);
+        bool isTouchingClimableObject = myFeetCollider.IsTouchingLayers(climbableObject);
         myAnimator.SetBool("isClimbing", isTouchingClimableObject);
         if (!isTouchingClimableObject) 
         {
@@ -83,6 +92,17 @@ public class PlayerInput : MonoBehaviour
         if (!playerHasVerticalalSpeed)
         {
             myAnimator.SetBool("isClimbing", playerHasVerticalalSpeed);
+        }
+    }
+
+    void Die()
+    {
+        int enemyLayer = LayerMask.GetMask("Enemies");
+        if (myRigidBody.IsTouchingLayers(enemyLayer))
+        {
+            isAlive = false;
+            myRigidBody.velocity = new Vector2(-myRigidBody.velocity.x * 2, 20f);
+            myAnimator.SetTrigger("Dying");
         }
     }
 }
