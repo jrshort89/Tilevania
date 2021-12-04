@@ -22,6 +22,8 @@ public class PlayerInput : MonoBehaviour
     int ground;
     int climbableObject;
     bool isAlive = true;
+    [SerializeField] bool isOnGround = true;
+    bool maxVelocityReached = false;
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
@@ -32,14 +34,27 @@ public class PlayerInput : MonoBehaviour
     }
 
     void Update()
-    {        
+    {
         if (isAlive)
         {
             Run();
             ChangeSpriteDirection();
             StartClimbing();
             Die();
-        }        
+        }
+        if (myRigidBody.velocity.y >= 24)
+        {
+            maxVelocityReached = true;
+        }
+        JumpMomentumHandler();
+    }
+
+    private void JumpMomentumHandler()
+    {
+        if (Keyboard.current.spaceKey.IsPressed() && !isOnGround && !maxVelocityReached && myRigidBody.velocity.y >= 0)
+        {
+            myRigidBody.velocity = new Vector2(0f, myRigidBody.velocity.y + 1f);
+        }
     }
 
     void Run()
@@ -67,12 +82,13 @@ public class PlayerInput : MonoBehaviour
     }
 
     void OnJump(InputValue value)
-    {
+    {                
         if (!isAlive) { return; }
-        if (myFeetCollider.IsTouchingLayers(ground))
+        if (isOnGround)
         {            
-            myRigidBody.velocity += new Vector2(0f, jumpSpeed);
+            myRigidBody.velocity += new Vector2(myRigidBody.velocity.x * 1.5f, jumpSpeed);            
         }        
+        isOnGround = false;        
     }
 
     void StartClimbing()
@@ -111,5 +127,11 @@ public class PlayerInput : MonoBehaviour
     void OnFire(InputValue value)
     {
         Instantiate(bullet, gun.position, transform.rotation);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        isOnGround = true;
+        maxVelocityReached = false;        
     }
 }
